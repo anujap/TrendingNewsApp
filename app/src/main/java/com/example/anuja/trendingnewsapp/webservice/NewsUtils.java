@@ -2,7 +2,7 @@ package com.example.anuja.trendingnewsapp.webservice;
 
 public class NewsUtils {
     public static final String API_KEY_PARAM = "apiKey";
-    public static final String API_KEY = "2bc73a9237e24e90bee60fc7bd092e29";
+    public static final String API_KEY = "";
 
     public static final String NEWS_BASE_URL = "https://newsapi.org/";
     public static final String NEWS_URL_VERSION = "v2/";
