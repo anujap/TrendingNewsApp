@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "469895737592",
+    "firebase_url": "https://trendingnews-d3e5d.firebaseio.com",
+    "project_id": "trendingnews-d3e5d",
+    "storage_bucket": "trendingnews-d3e5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469895737592:android:27c2d02fb5ccb0f6",
+        "android_client_info": {
+          "package_name": "com.example.anuja.trendingnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469895737592-13hkk84ir76nccfvq3ma4ctgo52o48h0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anuja.trendingnews",
+            "certificate_hash": "fcd2b1749d52eb3a58b93d6a8cde322c5cf232ca"
+          }
+        },
+        {
+          "client_id": "469895737592-nnnavevl1mpa4bv7q4ib5c2ur8cbnrns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3RXbMrf0YLrJJXmTZr1GsUM2b02ZYSn4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469895737592-nnnavevl1mpa4bv7q4ib5c2ur8cbnrns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469895737592:android:baf80dce24b67ccd",
+        "android_client_info": {
+          "package_name": "com.example.anuja.trendingnewsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469895737592-tilulhh0g7qcqdca3pqdnks2936lpgbn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anuja.trendingnewsapp",
+            "certificate_hash": "fcd2b1749d52eb3a58b93d6a8cde322c5cf232ca"
+          }
+        },
+        {
+          "client_id": "469895737592-nnnavevl1mpa4bv7q4ib5c2ur8cbnrns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3RXbMrf0YLrJJXmTZr1GsUM2b02ZYSn4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469895737592-nnnavevl1mpa4bv7q4ib5c2ur8cbnrns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

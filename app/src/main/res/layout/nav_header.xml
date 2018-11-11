@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.anuja.trendingnewsapp.app.activities.MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:elevation="18dp"
+            app:cardCornerRadius="40dp"
+            app:cardBackgroundColor="@color/colorPrimaryLight"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:id="@+id/img_user_photo"
+                android:src="@drawable/ic_temp_photo"/>
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:paddingTop="5dp"
+            android:id="@+id/tv_user_name"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="My Name Here"/>
+
+    </LinearLayout>
+</layout>
