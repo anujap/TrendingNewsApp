@@ -2,6 +2,14 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'news'
+            keyPassword 'trendingNews'
+            storeFile file("$rootDir/keystore.jks")
+            storePassword 'trendingNewsApp'
+        }
+    }
     compileSdkVersion 27
     defaultConfig {
         applicationId "com.example.anuja.trendingnewsapp"
@@ -15,9 +23,9 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
         }
     }
-
     dataBinding {
         enabled = true
     }
